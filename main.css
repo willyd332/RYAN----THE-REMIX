@@ -1,0 +1,17 @@
+.button-box {
+  display: inline-block;
+  margin: 10px;
+  border: 3px solid black;
+  border-radius: 8px;
+}
+
+.mainDiv {
+  text-align: center;
+}
+
+.big-button-holder {
+  text-align: center;
+  background-color: black;
+  width: 80%;
+  display: inline-block;
+}
