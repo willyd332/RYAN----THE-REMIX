@@ -150,6 +150,7 @@ const noiseArray = [{
 
 
 for (let i = 0; i < noiseArray.length; i++) {
+
   $('.big-button-holder').append(`<div class="col-sm-3 button-box"><button type="button" path=${noiseArray[i].path} class="btn btn-primary" id=${noiseArray[i].name}>${noiseArray[i].name}</button></div>`);
 
   $(`#${noiseArray[i].name}`).on('click', function(e) {
