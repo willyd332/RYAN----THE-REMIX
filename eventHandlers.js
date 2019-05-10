@@ -158,7 +158,7 @@ for (let i = 0; i < noiseArray.length; i++) {
     console.log(e.target.id)
     console.log(e.target.attributes.path.value)
     const newAudio = new Audio(e.target.attributes.path.value);
-    newAudio.volume = 0.1;
+    newAudio.volume = 0.5;
     newAudio.play();
 
     $('button').on('click', function(){
